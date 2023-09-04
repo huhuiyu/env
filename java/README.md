@@ -12,5 +12,5 @@
   - [maven配置](./maven-settings.xml)
   - [maven创建java项目演示脚本](./maven-create-javaproject.ps1)
     - 脚本中的参数说明：`-s是指定maven的配置文件`,`DgroupId是项目组id`,`DartifactId是项目名称`，其它请参考maven官方文档
-  - [maven创建javaweb项目演示脚本](./maven-create-javawebproject.ps1.ps1)
+  - [maven创建javaweb项目演示脚本](./maven-create-javawebproject.ps1)
     - 脚本中的参数说明：`-s是指定maven的配置文件`,`DgroupId是项目组id`,`DartifactId是项目名称`，其它请参考maven官方文档
