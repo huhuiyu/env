@@ -1,0 +1,1 @@
+import{h as a,az as s,A as n,K as o,L as t,N as l,x as u,T as i}from"./index-19bdfe73.js";const p="页面不存在",d=a({__name:"Error404",setup(c){const r=s();return(m,e)=>(n(),o(i,null,[t("div",null,l(p)),t("a",{href:"javascript:void(0)",onClick:e[0]||(e[0]=f=>u(r).push("/"))},"返回首页")],64))}});export{d as default};

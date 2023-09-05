@@ -1,0 +1,1 @@
+import{h as s,aB as n,A as o,K as r,L as e,N as t,x as l,T as u}from"./index-19bdfe73.js";const c="路由功能演示三",d=s({__name:"RouterPath",setup(i){let a=n();return(p,m)=>(o(),r(u,null,[e("div",null,t(c)),e("div",null," 路由信息："+t(l(a).params.id),1)],64))}});export{d as default};
