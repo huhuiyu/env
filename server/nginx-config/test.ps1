@@ -1,18 +1,18 @@
 # 创建必须的logs和temp文件夹
 $dir = ".\logs\"
 if( Test-Path $dir ){
-  echo $dir' has exists'
+  Write-Output "$dir has exists"
 } else {
-  md $dir
+  mkdir $dir
 }
 
 $dir = ".\temp\"
 if( Test-Path $dir ){
-  echo $dir' has exists'
+  Write-Output "$dir has exists"
 } else {
-  md $dir
+  mkdir $dir
 }
 
-# 启动nginx服务
+# 测试nginx服务
 ..\nginx-home.ps1
 nginx -t -c ./nginx.conf
