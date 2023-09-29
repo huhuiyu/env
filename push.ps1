@@ -1,7 +1,5 @@
-# git@github.com:huhuiyu/env.git
-# git remote add jihulab git@jihulab.com:DarkKnight/env.git
-# git remote add gitee git@gitee.com:huhuiyu/env.git
+# 多仓库推送脚本
 git pull
-git push
 git push jihulab
 git push gitee
+git push
